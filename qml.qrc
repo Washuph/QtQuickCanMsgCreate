@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>EditCard.qml</file>
+        <file>EditCardInput.qml</file>
+    </qresource>
+</RCC>
