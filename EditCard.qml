@@ -22,7 +22,7 @@ Rectangle {
         Text {
             width: 120
             id: labelName
-            font.pixelSize: 22
+            font.pixelSize: 14
             font.italic: true
             font.bold: true
             color: "#68b3b7"

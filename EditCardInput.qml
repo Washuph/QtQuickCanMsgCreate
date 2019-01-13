@@ -12,11 +12,13 @@ Rectangle {
     property alias text: input.text
 
     TextInput {
+        anchors.verticalCenter: parent.verticalCenter
         id: input
         anchors.margins: 4
         anchors.fill: parent
         focus: true
-        font.pixelSize: 43
+        font.pixelSize: 18
         font.bold: true
+
     }
 }

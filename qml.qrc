@@ -3,5 +3,6 @@
         <file>main.qml</file>
         <file>EditCard.qml</file>
         <file>EditCardInput.qml</file>
+        <file>ColorBox.qml</file>
     </qresource>
 </RCC>

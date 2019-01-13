@@ -64,9 +64,9 @@ QString CanFrameMaker::makeFrame(const QString &string) const
             }
             if (object.contains("type")) {
                 QJsonValue value = object.value("type");
-                if (value.isBool()) {
-                    int val = value.toVariant().toInt();
-                    qDebug() << "type : " << val;
+                if (value.isString()) {
+
+                    qDebug() << "type : " << value.String;
                 }
             }
         }
